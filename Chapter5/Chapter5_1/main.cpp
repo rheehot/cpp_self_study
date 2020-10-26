@@ -6,9 +6,17 @@
 //
 
 #include <iostream>
+#include <cstdlib>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main() {
+    
+    std::cout << "I Love you" << std::endl;
+    
+    // 긴급하게 코드 종료
+    exit(0);
+    
+//    ...
+//    std::cout << "I love you" << std::endl;
+//
+//    return 0;
 }
