@@ -16,6 +16,7 @@
 		3A64F63C2547F46B009AF123 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A64F63B2547F46B009AF123 /* main.cpp */; };
 		3A64F6572547F6F8009AF123 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A64F6562547F6F8009AF123 /* main.cpp */; };
 		3A64F66B2547FE56009AF123 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A64F66A2547FE56009AF123 /* main.cpp */; };
+		3A64F68025480524009AF123 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A64F67F25480524009AF123 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,6 +110,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		3A64F67B25480524009AF123 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -131,6 +141,8 @@
 		3A64F6562547F6F8009AF123 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3A64F6682547FE56009AF123 /* Chap6_9_pointer_operation_array_indexing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Chap6_9_pointer_operation_array_indexing; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A64F66A2547FE56009AF123 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3A64F67D25480524009AF123 /* Chap6_11_memory_dynamic_allocation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Chap6_11_memory_dynamic_allocation; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A64F67F25480524009AF123 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +216,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A64F67A25480524009AF123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -219,6 +238,7 @@
 				3A64F63A2547F46B009AF123 /* Chap6_7a_Null_pointer */,
 				3A64F6552547F6F8009AF123 /* Chap6_8_pointer_and_array */,
 				3A64F6692547FE56009AF123 /* Chap6_9_pointer_operation_array_indexing */,
+				3A64F67E25480524009AF123 /* Chap6_11_memory_dynamic_allocation */,
 				3A3AB9A32546B58B00CEB460 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -236,6 +256,7 @@
 				3A64F6392547F46B009AF123 /* Chap6_8_Null_pointer */,
 				3A64F6542547F6F8009AF123 /* Chap6_8_pointer_and_array */,
 				3A64F6682547FE56009AF123 /* Chap6_9_pointer_operation_array_indexing */,
+				3A64F67D25480524009AF123 /* Chap6_11_memory_dynamic_allocation */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -310,6 +331,14 @@
 				3A64F66A2547FE56009AF123 /* main.cpp */,
 			);
 			path = Chap6_9_pointer_operation_array_indexing;
+			sourceTree = "<group>";
+		};
+		3A64F67E25480524009AF123 /* Chap6_11_memory_dynamic_allocation */ = {
+			isa = PBXGroup;
+			children = (
+				3A64F67F25480524009AF123 /* main.cpp */,
+			);
+			path = Chap6_11_memory_dynamic_allocation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -485,6 +514,23 @@
 			productReference = 3A64F6682547FE56009AF123 /* Chap6_9_pointer_operation_array_indexing */;
 			productType = "com.apple.product-type.tool";
 		};
+		3A64F67C25480524009AF123 /* Chap6_11_memory_dynamic_allocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A64F68125480524009AF123 /* Build configuration list for PBXNativeTarget "Chap6_11_memory_dynamic_allocation" */;
+			buildPhases = (
+				3A64F67925480524009AF123 /* Sources */,
+				3A64F67A25480524009AF123 /* Frameworks */,
+				3A64F67B25480524009AF123 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chap6_11_memory_dynamic_allocation;
+			productName = Chap6_11_memory_dynamic_allocation;
+			productReference = 3A64F67D25480524009AF123 /* Chap6_11_memory_dynamic_allocation */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -523,6 +569,9 @@
 					3A64F6672547FE56009AF123 = {
 						CreatedOnToolsVersion = 12.1;
 					};
+					3A64F67C25480524009AF123 = {
+						CreatedOnToolsVersion = 12.1;
+					};
 				};
 			};
 			buildConfigurationList = 3A3AB99D2546B58B00CEB460 /* Build configuration list for PBXProject "Chapter6" */;
@@ -548,6 +597,7 @@
 				3A64F6382547F46B009AF123 /* Chap6_8_Null_pointer */,
 				3A64F6532547F6F8009AF123 /* Chap6_8_pointer_and_array */,
 				3A64F6672547FE56009AF123 /* Chap6_9_pointer_operation_array_indexing */,
+				3A64F67C25480524009AF123 /* Chap6_11_memory_dynamic_allocation */,
 			);
 		};
 /* End PBXProject section */
@@ -629,6 +679,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A64F66B2547FE56009AF123 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A64F67925480524009AF123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A64F68025480524009AF123 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -906,6 +964,22 @@
 			};
 			name = Release;
 		};
+		3A64F68225480524009AF123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A64F68325480524009AF123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1004,6 +1078,15 @@
 			buildConfigurations = (
 				3A64F66D2547FE56009AF123 /* Debug */,
 				3A64F66E2547FE56009AF123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A64F68125480524009AF123 /* Build configuration list for PBXNativeTarget "Chap6_11_memory_dynamic_allocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A64F68225480524009AF123 /* Debug */,
+				3A64F68325480524009AF123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
