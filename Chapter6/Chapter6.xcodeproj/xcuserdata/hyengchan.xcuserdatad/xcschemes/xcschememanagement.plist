@@ -24,6 +24,31 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>Chap6_6_array_string_c_style.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Chap6_7_pointer.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Chap6_8_Null_pointer.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>Chap6_8_pointer_and_array.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>Chap6_9_pointer_operation_array_indexing.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>Chapter6.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
