@@ -14,7 +14,7 @@ class IntList
 private:
     int m_list[10];
     
-public:
+public:    
     int & operator [] (const int index)
     {
         assert(index >= 0);
